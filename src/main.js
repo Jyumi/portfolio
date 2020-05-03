@@ -3,11 +3,9 @@ import App from './App.vue'
 import router from "./router"
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 
-import './plugins/fontawesome'
 import '../src/assets/style.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)

@@ -3,77 +3,67 @@
     <header class="site-header">
       <div class="site-branding">
         <h1 class="site-title">
-          <a href="index.html" rel="home">
-            <!-- <img src="images/logo.png" alt="Logo" /> -->
+          <a href="/" rel="home">
+            <img src="../assets/navigation-icons/logo.png" alt="Logo" style="height:49px; width: 25px;" />
           </a>
         </h1>
       </div>
 
-      <div class="hamburger-menu">
+      <div class="hamburger-menu" v-on:click="openMenu">
         <div class="menu-icon">
-          <img src="../assets/menu-icon.png" alt="menu icon" v-on:click="openMenu" />
+          <img src="../assets/navigation-icons/menu-icon.png" alt="menu icon" />
         </div>
 
         <div class="menu-close-icon">
-          <img src="../assets/x.png" alt="menu close icon" />
+          <img src="../assets/navigation-icons/x.png" alt="menu close icon" />
         </div>
       </div>
     </header>
 
     <nav class="site-navigation flex flex-column justify-content-between">
       <div class="site-branding d-none d-lg-block">
-        <h1 class="site-title">
-          <!-- <div>logo</div> -->
-          <a href="index.html" rel="home">
-            <img src="images/logo2.png" alt="Logo" />
-          </a>
-        </h1>
+        <h1 class="site-title"></h1>
       </div>
 
       <ul class="main-menu flex flex-column justify-content-center">
-        <li class="current-menu-item">
+        <li class="current-menu-item" v-on:click="openMenu">
           <router-link to="/">Home</router-link>
-          <!-- <a href="index.html">Home</a> -->
         </li>
-        <li>
-          <a href="#">Portfolio</a>
+        <li v-on:click="openMenu">
+          <router-link to="/portfolio">Portfolio</router-link>
         </li>
-        <li>
-          <a href="#">Blog</a>
+        <li v-on:click="openMenu">
+          <router-link to="/blog">Blog</router-link>
         </li>
-        <li>
+        <li v-on:click="openMenu">
           <router-link to="/about">About</router-link>
-          <!-- <a href="#">About</a> -->
         </li>
-        <li>
-          <a href="#">Contact</a>
+        <li v-on:click="openMenu">
+          <router-link to="/contact">Contact</router-link>
         </li>
       </ul>
 
       <div class="social-profiles">
         <ul class="flex justify-content-start justify-content-lg-center align-items-center">
           <li>
-            <a href="#">
-              <font-awesoome-icon icon="fa-facebook"></font-awesoome-icon>
-              <i class="fa fa-facebook"></i>
+            <a href="https://www.facebook.com/justin.lu.18">
+              <i>
+                <img src="../assets/social-icons/001-facebook.svg" alt="alt" style="width:25px" />
+              </i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <font-awesoome-icon icon="fa-instagram"></font-awesoome-icon>
-              <i class="fa fa-instagram"></i>
+            <a href="https://www.instagram.com/just_jlu/">
+              <i>
+                <img src="../assets/social-icons/011-instagram.svg" alt="alt" style="width:25px" />
+              </i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <font-awesoome-icon icon="fa-twitter"></font-awesoome-icon>
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <font-awesoome-icon icon="fa-pinterest"></font-awesoome-icon>
-              <i class="fa fa-pinterest"></i>
+            <a href="https://www.linkedin.com/in/justin-lu-b467ba99/">
+              <i>
+                <img src="../assets/social-icons/010-linkedin.svg" alt="alt" style="width:25px" />
+              </i>
             </a>
           </li>
         </ul>
@@ -91,15 +81,20 @@ export default {
   },
 
   methods: {
-    openMenu() {
-        $(this).toggleClass("close");
-        $(".site-branding").toggleClass("hide");
-        $(".site-navigation").toggleClass("show");
-        $(".site-header").toggleClass("no-shadow");
+    openMenu: function() {
+      $(this).toggleClass("close");
+      $(".site-branding").toggleClass("hide");
+      $(".site-navigation").toggleClass("show");
+      $(".site-header").toggleClass("no-shadow");
+      
+    },
+    linkClicked() {
+      
     }
   }
 };
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style>
 </style>

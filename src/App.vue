@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Menu msg="Welcome to Your Vue.js App"/>
+    <Menu msg="Welcome to my portfolio"/>
     <router-view></router-view>
   </div>
 </template>
