@@ -1177,5 +1177,7 @@ Home Styles
 */
 
 home {
-    background-image: url(../assets/ig-site-image/home.jpg)
+    
+
+    color: rgb(223, 220, 215);
 }
