@@ -25,7 +25,7 @@
               <p>Hello, my name is Justin Lu and I am a web developer. I attended classes at Georgia State University before temporarily moving to California to learn full-stack development. I have experience with:</p>
               <div class="row">
                 <div class="col">
-                  <ul class="breadcrumbs flex align-items-center justify-content-center">
+                  <ul class="breadcrumbs flex align-items-center justify-content-center flex-wrap">
                     <li>JavaScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -41,7 +41,7 @@
               <p>For databases:</p>
               <div class="row">
                 <div class="col">
-                  <ul class="breadcrumbs flex align-items-center justify-content-center">
+                  <ul class="breadcrumbs flex align-items-center justify-content-center flex-wrap">
                     <li>Fetch</li>
                     <li>SQL</li>
                     <li>NoSQL</li>
@@ -54,7 +54,7 @@
               <p>I also do photography from time to time and have experience in:</p>
               <div class="row">
                 <div class="col">
-                  <ul class="breadcrumbs flex align-items-center justify-content-center">
+                  <ul class="breadcrumbs flex align-items-center justify-content-center flex-wrap">
                     <li>Lightroom</li>
                     <li>Photoshop</li>
                     <li>DXO Pro Optics</li>
