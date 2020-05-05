@@ -4,7 +4,7 @@
       <div class="row p-3 flex align-items-center">
         <div class="col-12 col-md-6 col-lg-6">
           <h1>Hi, I'm Justin.</h1>
-          <div class="p-2">I'm an aspiring Web Developer, specializing in full-stack development. I also like to take picutres from time to time. Checkout my work and feel free to get in touch if you want to work wtih me.</div>
+          <div class="p-2">I'm an aspiring Web Developer, specializing in full-stack development. I also like to take pictures from time to time. Checkout my work and feel free to get in touch if you want to work with me.</div>
           <b-button to="/contact">contact me</b-button>
         </div>
 
