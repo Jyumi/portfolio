@@ -31,7 +31,7 @@
             </header>
 
             <div class="entry-content">
-              <p>If you've ever been in an airport, it's easy to see how busy the world can be. It feels like everyone always has somwhere they need to be or somewhere they're trying to get back to. I realize now, that with all this movement it's almost like it's own piece of artwork.</p>
+              <p>If you've ever been in an airport, it's easy to see how busy the world can be. It feels like everyone always has somewhere they need to be or somewhere they're trying to get back to. I realize now, that with all this movement it's almost like it's own piece of artwork.</p>
               <p>"Wherever you go, there you are" No matter where you go, you are the thing that you bring. It feels like everyone is obsessed with traveling and getting away. The truth of the matter is, if you're unhappy, there is no honest escape. You must learn to grow from within and be happy no matter where you are in this world.</p>
             </div>
           </div>

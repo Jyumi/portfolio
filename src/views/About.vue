@@ -63,7 +63,7 @@
                 </div>
               </div>
 
-              <p>Growing up,  I have always been interested in the tech field. From building computers to following the newest tech trends, I was alway facinated by the idea of being able to compute calculations to the moon in mere seconds. </p>
+              <p>Growing up,  I have always been interested in the tech field. From building computers to following the newest tech trends, I was alway fascinated by the idea of being able to compute calculations to the moon in mere seconds. </p>
 
             </div>
           </div>
