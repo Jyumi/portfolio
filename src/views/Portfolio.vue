@@ -8,7 +8,7 @@
               <a href="/">Home</a>
             </li>
             <li>Portfolio</li>
-            <li>Photogrpahy</li>
+            <li>Photography</li>
           </ul>
         </div>
       </div>
